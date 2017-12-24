@@ -12,7 +12,7 @@ import { StipAccountModule } from './account/account.module';
 import { StipEntityModule } from './entities/entity.module';
 import { customHttpProvider } from './blocks/interceptor/http.provider';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
-
+import { StipFooterComponent} from "./stip/layouts/stip.footer.component";
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 
 import {
@@ -22,8 +22,10 @@ import {
     ProfileService,
     PageRibbonComponent,
     ActiveMenuDirective,
-    ErrorComponent
+    ErrorComponent,
 } from './layouts';
+import {StipTopNavbarComponent} from "./stip/topnavbar/stip.topnavbar.component";
+import {StipNavigationComponent} from "./stip/navigation/stip.navigation.component";
 
 @NgModule({
     imports: [
@@ -43,7 +45,10 @@ import {
         ErrorComponent,
         PageRibbonComponent,
         ActiveMenuDirective,
-        FooterComponent
+        //FooterComponent,
+        StipTopNavbarComponent,
+        StipNavigationComponent,
+        StipFooterComponent
     ],
     providers: [
         ProfileService,
