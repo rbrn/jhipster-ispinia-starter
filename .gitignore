@@ -1,0 +1,3 @@
+build/www/*
+node_modules
+.yarn.lock
