@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-//import { smoothlyMenu } from '../../../app.helpers';
+import {smoothlyMenu} from '../app.helpers';
 declare var jQuery:any;
 
 @Component({
@@ -10,7 +10,7 @@ export class TopNavbarComponent {
 
   toggleNavigation(): void {
     jQuery("body").toggleClass("mini-navbar");
-    //smoothlyMenu();
+    smoothlyMenu();
   }
 
 }
