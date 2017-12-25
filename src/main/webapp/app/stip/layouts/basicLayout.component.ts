@@ -1,7 +1,8 @@
 import {Component} from '@angular/core';
+import {detectBody} from "../app.helpers";
 
 
-declare var jQuery:any;
+declare var jQuery: any;
 
 @Component({
   selector: 'basic',
@@ -13,11 +14,11 @@ declare var jQuery:any;
 export class BasicLayoutComponent {
 
   public ngOnInit():any {
-    //detectBody();
+    detectBody();
   }
 
   public onResize(){
-    //detectBody();
+    detectBody();
   }
 
 }
