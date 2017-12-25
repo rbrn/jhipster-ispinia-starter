@@ -3,7 +3,7 @@ import {smoothlyMenu} from '../app.helpers';
 declare var jQuery: any;
 
 @Component({
-  selector: 'stiptopnavigationnavbar',
+  selector: 'jhi-stip-top-navigation-navbar',
   templateUrl: 'topnavigationnavbar.template.html'
 })
 export class StipTopnavigationnavbarComponent {

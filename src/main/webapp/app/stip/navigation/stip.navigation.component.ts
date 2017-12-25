@@ -1,8 +1,9 @@
 import {AfterViewInit, Component} from '@angular/core';
 import {Router} from '@angular/router';
-import 'jquery-slimscroll';
 
 declare var jQuery: any;
+import * as $ from 'jquery';
+import 'metismenu';
 
 @Component({
   selector: 'jhi-stip-navigation',
@@ -14,9 +15,9 @@ export class StipNavigationComponent implements AfterViewInit {
   constructor(private router: Router) {}
 
   ngAfterViewInit() {
-    jQuery("#side-menu").metisMenu();
+    $('#side-menu').metisMenu();
 
-    if (jQuery("body").hasClass('fixed-sidebar')) {
+    if ($('body').hasClass('fixed-sidebar')) {
       jQuery('.sidebar-collapse').slimscroll({
         height: '100%'
       })
@@ -26,6 +27,5 @@ export class StipNavigationComponent implements AfterViewInit {
   activeRoute(routename: string): boolean{
     return this.router.url.indexOf(routename) > -1;
   }
-
 
 }

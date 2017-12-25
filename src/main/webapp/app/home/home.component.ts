@@ -9,7 +9,7 @@ import { Account, LoginModalService, Principal } from '../shared';
     templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
-    account: Account;
+    account: Account = new Account(true, [], 'ddd', 'ddd', 'ddd', 'ddd', 'ddd', 'ddd');
     modalRef: NgbModalRef;
 
     constructor(

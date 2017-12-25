@@ -1,13 +1,13 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { StipSharedModule } from '../shared';
+//import { StipSharedModule } from '../shared';
 
 import { HOME_ROUTE, HomeComponent } from './';
 
 @NgModule({
     imports: [
-        StipSharedModule,
+  //      StipSharedModule,
         RouterModule.forChild([ HOME_ROUTE ])
     ],
     declarations: [

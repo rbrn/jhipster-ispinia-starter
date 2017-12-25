@@ -1,9 +1,22 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { errorRoute, navbarRoute } from './layouts';
+import {RouterModule, Routes} from '@angular/router';
+import { errorRoute } from './layouts';
+import {BasicLayoutComponent} from "./stip/layouts/basicLayout.component";
+import {StarterViewComponent} from "./stip/appviews/starterview.component";
+
+ const ROUTES: Routes = [
+    // Main redirect
+    {path: '', redirectTo: 'starterview', pathMatch: 'full'},
+    {
+        path: '', component: BasicLayoutComponent,
+        children: [
+            {path: 'starterview', component: StarterViewComponent}
+        ]
+    }
+];
 
 const LAYOUT_ROUTES = [
-    navbarRoute,
+    ...ROUTES,
     ...errorRoute
 ];
 
