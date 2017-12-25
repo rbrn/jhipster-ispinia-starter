@@ -1,28 +1,24 @@
-import {NgModule} from "@angular/core";
-import {BrowserModule} from "@angular/platform-browser";
-import {RouterModule} from "@angular/router";
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {RouterModule} from '@angular/router';
 
 import {BsDropdownModule} from 'ngx-bootstrap';
 
-import {BasicLayoutComponent} from "./basicLayout.component";
-import {BlankLayoutComponent} from "./blankLayout.component";
-import {TopNavigationLayoutComponent} from "./topNavigationLayout.component";
-
-import {NavigationComponent} from "./../navigation/navigation.component";
-import {FooterComponent} from "./../footer/footer.component";
-import {TopNavbarComponent} from "./../topnavbar/topnavbar.component";
-import {TopNavigationNavbarComponent} from "./../topnavbar/topnavigationnavbar.component";
+import {StarterViewComponent} from './appviews/starterview.component';
+import {StipTopnavigationnavbarComponent} from './topnavbar/stip.topnavigationnavbar.component';
+import {StipFooterComponent} from './layouts/stip.footer.component';
+import {StipNavigationComponent} from './navigation/stip.navigation.component';
+import {StipTopNavbarComponent} from './topnavbar/stip.topnavbar.component';
+import {BasicLayoutComponent} from './layouts/basicLayout.component';
 
 
 @NgModule({
   declarations: [
-    FooterComponent,
-    BasicLayoutComponent,
-    BlankLayoutComponent,
-    NavigationComponent,
-    TopNavigationLayoutComponent,
-    TopNavbarComponent,
-    TopNavigationNavbarComponent
+      StipTopNavbarComponent,
+      StipNavigationComponent,
+      StipFooterComponent,
+      StipTopnavigationnavbarComponent,
+      BasicLayoutComponent, StarterViewComponent
   ],
   imports: [
     BrowserModule,
@@ -30,13 +26,11 @@ import {TopNavigationNavbarComponent} from "./../topnavbar/topnavigationnavbar.c
     BsDropdownModule.forRoot()
   ],
   exports: [
-    FooterComponent,
-    BasicLayoutComponent,
-    BlankLayoutComponent,
-    NavigationComponent,
-    TopNavigationLayoutComponent,
-    TopNavbarComponent,
-    TopNavigationNavbarComponent
+      StipTopNavbarComponent,
+      StipNavigationComponent,
+      StipFooterComponent,
+      StipTopnavigationnavbarComponent,
+      BasicLayoutComponent, StarterViewComponent
   ],
 })
 

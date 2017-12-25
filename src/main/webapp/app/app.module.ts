@@ -12,14 +12,8 @@ import {StipAccountModule} from './account/account.module';
 import {StipEntityModule} from './entities/entity.module';
 import {customHttpProvider} from './blocks/interceptor/http.provider';
 import {PaginationConfig} from './blocks/config/uib-pagination.config';
-import {StipFooterComponent} from './stip/layouts/stip.footer.component';
 import {ErrorComponent, JhiMainComponent, PageRibbonComponent, ProfileService,} from './layouts';
-import {StipTopNavbarComponent} from './stip/topnavbar/stip.topnavbar.component';
-import {StipNavigationComponent} from './stip/navigation/stip.navigation.component';
-import {StipTopnavigationnavbarComponent} from "./stip/topnavbar/stip.topnavigationnavbar.component";
-import {BasicLayoutComponent} from "./stip/layouts/basicLayout.component";
-import {StarterViewComponent} from "./stip/appviews/starterview.component";
-import {BsDropdownModule} from "ngx-bootstrap";
+import {LayoutsModule} from './stip/layouts.module';
 
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 
@@ -33,18 +27,13 @@ import {BsDropdownModule} from "ngx-bootstrap";
         StipAdminModule,
         StipAccountModule,
         StipEntityModule,
-        BsDropdownModule.forRoot()
+        LayoutsModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
         JhiMainComponent,
         ErrorComponent,
-        PageRibbonComponent,
-        StipTopNavbarComponent,
-        StipNavigationComponent,
-        StipFooterComponent,
-        StipTopnavigationnavbarComponent,
-        BasicLayoutComponent, StarterViewComponent
+        PageRibbonComponent
     ],
     providers: [
         ProfileService,
