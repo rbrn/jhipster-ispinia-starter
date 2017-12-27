@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import {detectBody} from '../app.helpers';
+import {Component, OnInit} from '@angular/core';
+import {detectBody} from "../../helpers/app.helpers";
+
 
 declare var jQuery: any;
 
@@ -10,14 +11,14 @@ declare var jQuery: any;
     '(window:resize)': 'onResize()'
   }
 })
-export class TopNavigationLayoutComponent {
+export class TopNavigationLayoutComponent implements OnInit{
 
   public ngOnInit():any {
     detectBody();
   }
 
   public onResize(){
-   // detectBody();
+    detectBody();
   }
 
 }

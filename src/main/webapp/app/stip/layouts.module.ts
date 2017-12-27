@@ -5,11 +5,15 @@ import {RouterModule} from '@angular/router';
 import {BsDropdownModule} from 'ngx-bootstrap';
 
 import {StarterViewComponent} from './appviews/starterview.component';
-import {StipTopnavigationnavbarComponent} from './topnavbar/stip.topnavigationnavbar.component';
-import {StipFooterComponent} from './layouts/stip.footer.component';
-import {StipNavigationComponent} from './navigation/stip.navigation.component';
-import {StipTopNavbarComponent} from './topnavbar/stip.topnavbar.component';
-import {BasicLayoutComponent} from './layouts/basicLayout.component';
+import {StipTopNavbarComponent} from "../layouts/navigation/inspinia/stip.topnavbar.component";
+import {StipNavigationComponent} from "../layouts/navigation/inspinia/stip.navigation.component";
+import {StipTopnavigationnavbarComponent} from "../layouts/navigation/inspinia/stip.topnavigationnavbar.component";
+import {LoginComponent} from "./appviews/login.component";
+import {StipFooterComponent} from "../layouts/footer/ispinia/stip.footer.component";
+import {BasicLayoutComponent} from "../layouts/inspinia/basicLayout.component";
+import {BlankLayoutComponent} from "../layouts/inspinia/blankLayout.component";
+import {Dashboard1Component} from "./appviews/dashboard1.component";
+import {FlotChartDirective} from "./appviews/flotChart";
 
 
 @NgModule({
@@ -18,7 +22,8 @@ import {BasicLayoutComponent} from './layouts/basicLayout.component';
       StipNavigationComponent,
       StipFooterComponent,
       StipTopnavigationnavbarComponent,
-      BasicLayoutComponent, StarterViewComponent
+      BasicLayoutComponent, StarterViewComponent, BlankLayoutComponent, LoginComponent,
+      Dashboard1Component, FlotChartDirective
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,8 @@ import {BasicLayoutComponent} from './layouts/basicLayout.component';
       StipNavigationComponent,
       StipFooterComponent,
       StipTopnavigationnavbarComponent,
-      BasicLayoutComponent, StarterViewComponent
+      BasicLayoutComponent, StarterViewComponent, BlankLayoutComponent, LoginComponent,
+      Dashboard1Component, FlotChartDirective
   ],
 })
 

@@ -2,12 +2,13 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
-import {RouterModule} from "@angular/router";
+import {RouterModule} from '@angular/router';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
-import {ROUTES} from "./app.routes";
+import {ROUTES} from './app.routes';
 import {AppComponent} from './app.component';
-import {BsDropdownModule} from "ngx-bootstrap";
+import {BsDropdownModule} from 'ngx-bootstrap';
+import {FlotModule} from "./appviews/flotChart";
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {BsDropdownModule} from "ngx-bootstrap";
     BrowserModule,
     FormsModule,
     HttpModule, BsDropdownModule.forRoot(),
+      FlotModule,
     RouterModule.forRoot(
         ROUTES,
         { enableTracing: true }

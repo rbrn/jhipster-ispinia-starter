@@ -1,34 +1,32 @@
-import {Routes} from "@angular/router";
-import {BasicLayoutComponent} from "./layouts/basicLayout.component";
-import {TopNavigationLayoutComponent} from "./layouts/topNavigationLayout.component";
-import {StarterViewComponent} from "./appviews/starterview.component";
-import {BlankLayoutComponent} from "./layouts/blankLayout.component";
-import {LoginComponent} from "./appviews/login.component";
+import {Routes} from '@angular/router';
+import {StarterViewComponent} from './appviews/starterview.component';
+import {LoginComponent} from './appviews/login.component';
+import {BasicLayoutComponent} from "../layouts/inspinia/basicLayout.component";
+import {BlankLayoutComponent} from "../layouts/inspinia/blankLayout.component";
+import {Dashboard1Component} from "./appviews/dashboard1.component";
 
-export const ROUTES:Routes = [
-  // Main redirect
-  {path: '', redirectTo: 'dashboards', pathMatch: 'full'},
+export const ROUTES: Routes = [
+    // Main redirect
+    // App views
+    {
+        path: 'dashboards', component: BasicLayoutComponent,
+        children: [
+            {path: 'dashboard1', component: Dashboard1Component},
+        ]
+    },
 
-  // App views
-  {
-    path: 'dashboards', component: BasicLayoutComponent
-  },
-  {
-    path: 'dashboards', component: TopNavigationLayoutComponent
-  },
-  {
-    path: '', component: BasicLayoutComponent,
-    children: [
-      {path: 'starterview', component: StarterViewComponent}
-    ]
-  },
-  {
-    path: '', component: BlankLayoutComponent,
-    children: [
-      { path: 'login', component: LoginComponent },
-    ]
-  },
+    {path: '', redirectTo: 'main', pathMatch: 'full'},
+    {
+        path: 'main', component: BasicLayoutComponent,
+        children: [
+            {path: '', component: StarterViewComponent}
+        ]
+    },
 
-  // Handle all other routes
-  {path: '**',  redirectTo: ''}
+    {
+        path: 'login', component: BlankLayoutComponent,
+        children: [
+            {path: '', component: LoginComponent},
+        ]
+    }
 ];
