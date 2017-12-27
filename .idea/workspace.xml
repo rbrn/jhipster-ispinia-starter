@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f429bfce-7841-4aa3-bb3d-da75bfe485dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/flotChart.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard41.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard41.template.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.helpers.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/helpers/app.helpers.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/basicLayout.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/inspinia/basicLayout.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/basicLayout.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/inspinia/basicLayout.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/blankLayout.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/inspinia/blankLayout.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/blankLayout.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/inspinia/blankLayout.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/footer.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/footer/ispinia/footer.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/stip.footer.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/footer/ispinia/stip.footer.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/topNavigationLayout.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/topNavigationLayout.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/topNavigationLayout.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/topNavigationLayout.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/navigation/navigation.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/navigation/stip.navigation.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/stip.navigation.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/topnavbar/stip.topnavbar.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/stip.topnavbar.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/topnavbar/stip.topnavigationnavbar.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/stip.topnavigationnavbar.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/topnavbar/topnavbar.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/topnavbar.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/topnavbar/topnavigationnavbar.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/topnavigationnavbar.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.angular-cli.json" afterPath="$PROJECT_DIR$/.angular-cli.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,28 +20,28 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="113">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard1.template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard1.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
-              <caret line="142" column="103" lean-forward="false" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="106" />
+              <caret line="142" column="61" lean-forward="true" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="34" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -74,11 +50,11 @@
       <file leaf-file-name="dashboard1.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="254">
+              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <element signature="n#Dashboard1Component#0" expanded="false" />
+                <element signature="e#111#129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,22 +72,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.flot.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/flot/jquery.flot.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1514121723000" expanded="true" signature="107648:107719" ph="..." />
-                <marker date="1514121723000" expanded="true" signature="107733:107804" ph="..." />
-                <marker date="1514121723000" expanded="true" signature="108105:108129" ph="..." />
-                <marker date="1514121723000" expanded="true" signature="109890:110003" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="layouts.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,14 +84,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts">
+      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.angular-cli.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="226">
+              <caret line="29" column="71" lean-forward="false" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,6 +146,9 @@
       <find>do</find>
       <find>ibox</find>
       <find>&lt;iboxtools&gt;&lt;/iboxtools&gt;</find>
+      <find>sparklin</find>
+      <find>sparklineData</find>
+      <find>This price is craz</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -238,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/basicLayout.template.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/topnavbar/topnavbar.template.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/navigation/navigation.template.html" />
-        <option value="$PROJECT_DIR$/.angular-cli.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/vendor.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/content/scss/vendor.scss" />
@@ -249,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/stip.topnavbar.component.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/login.template.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/topNavigationLayout.component.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" />
@@ -257,7 +216,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/flotChart.ts" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.component.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.angular-cli.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.template.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html" />
       </list>
     </option>
   </component>
@@ -301,13 +262,68 @@
             <path>
               <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="flot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="inspinia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="inspinia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
@@ -456,7 +472,7 @@
       <workItem from="1514218575009" duration="581000" />
       <workItem from="1514219341459" duration="2475000" />
       <workItem from="1514312243963" duration="619000" />
-      <workItem from="1514384246965" duration="4135000" />
+      <workItem from="1514384246965" duration="5093000" />
     </task>
     <task id="LOCAL-00001" summary="ddd">
       <created>1514210153857</created>
@@ -465,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514210153857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added support for ng-charts and flotchart + 1 dashboard">
+      <created>1514388412229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514388412229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20581000" />
+    <option name="totallyTimeSpent" value="21539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="114" width="1920" height="1055" extended-state="6" />
@@ -482,13 +505,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5064935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5064935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39069265" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3569904" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3569904" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51731604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -565,8 +588,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="ddd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ddd" />
+    <MESSAGE value="Added support for ng-charts and flotchart + 1 dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for ng-charts and flotchart + 1 dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -668,14 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -901,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/topNavigationLayout.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -927,12 +937,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/flot/jquery.flot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1514121723000" expanded="true" signature="107648:107719" ph="..." />
+            <marker date="1514121723000" expanded="true" signature="107733:107804" ph="..." />
+            <marker date="1514121723000" expanded="true" signature="108105:108129" ph="..." />
+            <marker date="1514121723000" expanded="true" signature="109890:110003" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/flotChart.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding>
+            <element signature="e#145#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="29" column="71" lean-forward="false" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,45 +997,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/flot/jquery.flot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1514121723000" expanded="true" signature="107648:107719" ph="..." />
-            <marker date="1514121723000" expanded="true" signature="107733:107804" ph="..." />
-            <marker date="1514121723000" expanded="true" signature="108105:108129" ph="..." />
-            <marker date="1514121723000" expanded="true" signature="109890:110003" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="254">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="22" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="n#Dashboard1Component#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/flotChart.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-          <folding>
-            <element signature="e#145#199#0" expanded="true" />
+            <element signature="e#111#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -993,7 +1011,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard1.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="142" column="103" lean-forward="false" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="106" />
+          <caret line="142" column="61" lean-forward="true" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/navigation/inspinia/navigation.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="34" selection-end-column="9" />
           <folding />
         </state>
       </provider>
