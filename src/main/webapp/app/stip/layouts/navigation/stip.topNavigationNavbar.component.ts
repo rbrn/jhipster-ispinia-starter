@@ -4,7 +4,7 @@ declare var jQuery: any;
 
 @Component({
   selector: 'jhi-stip-top-navigation-navbar',
-  templateUrl: 'topnavigationnavbar.template.html'
+  templateUrl: 'stip.topNavigationNavbar.template.html'
 })
 export class StipTopnavigationnavbarComponent {
 

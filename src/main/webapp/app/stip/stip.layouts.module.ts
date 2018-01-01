@@ -10,7 +10,7 @@ import {FlotChartDirective} from './appviews/flotChart';
 import {StipFooterComponent} from './layouts/footer/stip.footer.component';
 import {StipNavigationComponent} from './layouts/navigation/stip.navigation.component';
 import {StipTopNavbarComponent} from './layouts/navigation/stip.topnavbar.component';
-import {StipTopnavigationnavbarComponent} from './layouts/navigation/stip.topnavigationnavbar.component';
+import {StipTopnavigationnavbarComponent} from './layouts/navigation/stip.topNavigationNavbar.component';
 import {BasicLayoutComponent} from './layouts/basicLayout.component';
 
 @NgModule({
@@ -36,4 +36,4 @@ import {BasicLayoutComponent} from './layouts/basicLayout.component';
   ],
 })
 
-export class LayoutsModule {}
+export class StipLayoutsModule {}

@@ -5,7 +5,7 @@ import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
-import {STIP_LAYOUT_ROUTES} from './app.routes';
+import {STIP_LAYOUT_ROUTES} from './stip.app.routes';
 import {AppComponent} from './app.component';
 import {BsDropdownModule} from 'ngx-bootstrap';
 import {FlotModule} from './appviews/flotChart';

@@ -7,7 +7,7 @@ import 'metismenu';
 
 @Component({
   selector: 'jhi-stip-navigation',
-  templateUrl: 'navigation.template.html'
+  templateUrl: 'stip.navigation.template.html'
 })
 
 export class StipNavigationComponent implements AfterViewInit {

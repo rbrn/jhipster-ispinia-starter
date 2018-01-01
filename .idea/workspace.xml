@@ -3,81 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="f429bfce-7841-4aa3-bb3d-da75bfe485dd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/account.module.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/account.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/index.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password-strength-bar.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password-strength-bar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/admin.module.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/admin.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/audits/audit-data.model.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/audits/audit.model.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/audits/audits.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/audits/audits.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/audits/audits.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/audits/audits.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health-modal.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health-modal.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/index.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/log.model.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics-modal.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics-modal.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management-detail.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management-detail.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management-dialog.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management-dialog.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management.route.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-modal.service.ts" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/app/app.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/stip.app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/stip.app.routes.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/stip.layouts.module.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/navigation.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.navigation.template.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.navigation.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.navigation.component.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavbar.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavbar.component.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavigationnavbar.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topNavigationNavbar.component.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/topNavigationLayout.component.ts" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topNavigationLayout.component.ts" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/topNavigationLayout.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topNavigationLayout.template.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/topnavbar.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavbar.template.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/topnavigationnavbar.template.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topNavigationNavbar.template.html" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/activate/activate.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/password-reset/finish/password-reset-finish.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/password-reset/init/password-reset-init.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/password/password-strength-bar.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/password/password.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/register/register.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/account/settings/settings.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/admin/audits/audits.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/admin/health/health.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/admin/user-management/user-management-delete-dialog.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/admin/user-management/user-management-detail.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/admin/user-management/user-management-dialog.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/javascript/spec/app/admin/user-management/user-management.component.spec.ts" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -90,116 +41,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/app.module.ts">
+      <file leaf-file-name="main.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stip.layouts.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/stip.layouts.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts">
+      <file leaf-file-name="stip.app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/stip.app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="22" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
-                <marker date="1514830475883" expanded="true" signature="650:747" ph="[...]" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.routes.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layouts.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/home/home.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/app.main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stip.topnavbar.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavbar.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appviews.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/appviews.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basicLayout.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/basicLayout.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -341,9 +221,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -415,11 +295,28 @@
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="stip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stip-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stip-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,7 +460,8 @@
       <workItem from="1514826172907" duration="43000" />
       <workItem from="1514826253354" duration="55000" />
       <workItem from="1514826339195" duration="441000" />
-      <workItem from="1514829036715" duration="1453000" />
+      <workItem from="1514829036715" duration="1763000" />
+      <workItem from="1514840220775" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="ddd">
       <created>1514210153857</created>
@@ -593,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514830020467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added support for ng-charts and flotchart + 1 dashboard">
+      <created>1514830500469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514830500469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23534000" />
+    <option name="totallyTimeSpent" value="23901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="114" width="1920" height="1055" extended-state="6" />
@@ -611,15 +516,11 @@
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50757575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4978355" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38473853" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38900748" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51731604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -628,9 +529,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51731604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -705,27 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/ngx-bootstrap/dropdown/bs-dropdown-toggle.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -786,27 +670,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/login.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/blankLayout.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/login.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/login.template.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/blankLayout.template.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard41.component.ts" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/dashboard41.template.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/starter.template.html">
@@ -874,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,86 +764,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/blankLayout.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/topNavigationLayout.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/blankLayout.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topNavigationLayout.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavigationnavbar.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topNavigationNavbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavbar.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/appviews.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/basicLayout.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts.module.ts" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,21 +807,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/navigation/stip.topnavbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/appviews/appviews.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/layouts/basicLayout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.routes.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/stip.layouts.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1020,13 +857,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/stip/stip.app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="22" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
-            <marker date="1514830475883" expanded="true" signature="650:747" ph="[...]" />
           </folding>
         </state>
       </provider>

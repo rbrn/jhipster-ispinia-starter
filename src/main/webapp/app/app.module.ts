@@ -11,7 +11,7 @@ import {StipEntityModule} from './entities/entity.module';
 import {customHttpProvider} from './blocks/interceptor/http.provider';
 import {PaginationConfig} from './blocks/config/uib-pagination.config';
 import {ErrorComponent, JhiMainComponent, PageRibbonComponent, ProfileService,} from './layouts';
-import {LayoutsModule} from './stip/layouts.module';
+import {StipLayoutsModule} from './stip/stip.layouts.module';
 
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 
@@ -23,7 +23,7 @@ import {LayoutsModule} from './stip/layouts.module';
         StipSharedModule,
         StipHomeModule,
         StipEntityModule,
-        LayoutsModule
+        StipLayoutsModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
