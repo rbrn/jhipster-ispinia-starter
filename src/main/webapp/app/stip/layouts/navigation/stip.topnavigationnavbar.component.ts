@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {smoothlyMenu} from '../../helpers/app.helpers';
+import {smoothlyMenu} from '../helpers/app.helpers';
 declare var jQuery: any;
 
 @Component({
@@ -9,7 +9,7 @@ declare var jQuery: any;
 export class StipTopnavigationnavbarComponent {
 
   toggleNavigation(): void {
-    jQuery("body").toggleClass("mini-navbar");
+    jQuery('body').toggleClass('mini-navbar');
     smoothlyMenu();
   }
 

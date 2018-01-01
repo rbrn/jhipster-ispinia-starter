@@ -1,9 +1,7 @@
 import {Routes} from '@angular/router';
 import {StarterViewComponent} from './appviews/starterview.component';
-import {LoginComponent} from './appviews/login.component';
 import {Dashboard1Component} from './appviews/dashboard1.component';
 import {BasicLayoutComponent} from './layouts/basicLayout.component';
-import {BlankLayoutComponent} from './layouts/blankLayout.component';
 
 export const ROUTES: Routes = [
     // Main redirect
@@ -20,13 +18,6 @@ export const ROUTES: Routes = [
         path: 'main', component: BasicLayoutComponent,
         children: [
             {path: '', component: StarterViewComponent}
-        ]
-    },
-
-    {
-        path: 'login', component: BlankLayoutComponent,
-        children: [
-            {path: '', component: LoginComponent},
         ]
     }
 ];
