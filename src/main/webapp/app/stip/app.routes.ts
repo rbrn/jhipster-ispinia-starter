@@ -3,7 +3,7 @@ import {StarterViewComponent} from './appviews/starterview.component';
 import {Dashboard1Component} from './appviews/dashboard1.component';
 import {BasicLayoutComponent} from './layouts/basicLayout.component';
 
-export const ROUTES: Routes = [
+export const STIP_LAYOUT_ROUTES: Routes = [
     // Main redirect
     // App views
     {

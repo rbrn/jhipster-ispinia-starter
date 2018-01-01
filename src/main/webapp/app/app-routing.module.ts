@@ -1,11 +1,10 @@
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
 import {errorRoute} from './layouts';
-import {ROUTES} from "./stip/app.routes";
-
+import {STIP_LAYOUT_ROUTES} from './stip/app.routes';
 
 const LAYOUT_ROUTES = [
-    ...ROUTES,
+    ...STIP_LAYOUT_ROUTES,
     ...errorRoute
 ];
 

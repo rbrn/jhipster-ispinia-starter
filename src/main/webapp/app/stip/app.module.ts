@@ -5,11 +5,10 @@ import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
-import {ROUTES} from './app.routes';
+import {STIP_LAYOUT_ROUTES} from './app.routes';
 import {AppComponent} from './app.component';
 import {BsDropdownModule} from 'ngx-bootstrap';
-import {FlotModule} from "./appviews/flotChart";
-
+import {FlotModule} from './appviews/flotChart';
 
 @NgModule({
   declarations: [
@@ -18,10 +17,9 @@ import {FlotModule} from "./appviews/flotChart";
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule, BsDropdownModule.forRoot(),
-      FlotModule,
+    HttpModule, BsDropdownModule.forRoot(), FlotModule,
     RouterModule.forRoot(
-        ROUTES,
+        STIP_LAYOUT_ROUTES,
         { enableTracing: true }
     )
   ],
