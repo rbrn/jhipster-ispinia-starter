@@ -1,9 +1,9 @@
 import {Routes} from '@angular/router';
 import {StarterViewComponent} from './appviews/starterview.component';
 import {LoginComponent} from './appviews/login.component';
-import {BasicLayoutComponent} from "../layouts/inspinia/basicLayout.component";
-import {BlankLayoutComponent} from "../layouts/inspinia/blankLayout.component";
-import {Dashboard1Component} from "./appviews/dashboard1.component";
+import {Dashboard1Component} from './appviews/dashboard1.component';
+import {BasicLayoutComponent} from './layouts/basicLayout.component';
+import {BlankLayoutComponent} from './layouts/blankLayout.component';
 
 export const ROUTES: Routes = [
     // Main redirect
