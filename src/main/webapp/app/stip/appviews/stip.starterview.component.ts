@@ -2,9 +2,9 @@ import { Component, OnDestroy, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'starter',
-  templateUrl: 'starter.template.html'
+  templateUrl: 'stip.starter.template.html'
 })
-export class StarterViewComponent implements OnDestroy, OnInit  {
+export class StipStarterViewComponent implements OnDestroy, OnInit  {
 
 public nav:any;
 

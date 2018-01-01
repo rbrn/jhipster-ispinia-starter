@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'jhi-stip-footer',
-  templateUrl: 'footer.template.html'
+  templateUrl: 'stip.footer.template.html'
 })
 export class StipFooterComponent { }

@@ -2,21 +2,21 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {RouterModule} from '@angular/router';
 
-import {StarterViewComponent} from './starterview.component';
+import {StipStarterViewComponent} from './stip.starterview.component';
 
 
 @NgModule({
   declarations: [
-    StarterViewComponent
+    StipStarterViewComponent
   ],
   imports: [
     BrowserModule,
     RouterModule
   ],
   exports: [
-    StarterViewComponent
+    StipStarterViewComponent
   ],
 })
 
-export class AppviewsModule {
+export class StipAppViewsModule {
 }

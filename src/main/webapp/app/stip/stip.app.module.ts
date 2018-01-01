@@ -6,7 +6,7 @@ import {RouterModule} from '@angular/router';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
 import {STIP_LAYOUT_ROUTES} from './stip.app.routes';
-import {AppComponent} from './app.component';
+import {AppComponent} from './stip.app.component';
 import {BsDropdownModule} from 'ngx-bootstrap';
 import {FlotModule} from './appviews/flotChart';
 
@@ -26,4 +26,4 @@ import {FlotModule} from './appviews/flotChart';
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class StipAppModule { }

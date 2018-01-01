@@ -10,10 +10,10 @@ declare var jQuery:any;
 
 @Component({
   selector: 'dashboard1',
-  templateUrl: 'dashboard1.template.html'
+  templateUrl: 'stip.dashboard1.template.html'
 })
 
-export class Dashboard1Component {
+export class StipDashboard1Component {
 
 
   public doughnutChartType:string = 'doughnut';
