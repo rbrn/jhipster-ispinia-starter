@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import {Router} from '@angular/router';
 
 // Import Chart.js library
-import 'chart.js';
+//import 'chart.js';
 
-import { FlotChartDirective } from  "../appviews/flotChart";
+import { FlotChartDirective } from  '../appviews/flotChart';
 
 declare var jQuery:any;
 
@@ -24,7 +24,7 @@ export class StipDashboard1Component {
   public doughnutChartLabels2:string[] = ['App', 'Software', 'Laptop'];
   public doughnutChartData2:number[] = [300, 50, 100];
 
-  public colors:Array<any> = [{backgroundColor: ["#a3e1d4", "#dedede", "#9CC3DA"]}];
+  public colors:Array<any> = [{backgroundColor: ['#a3e1d4', '#dedede', '#9CC3DA']}];
 
 
   // Main Chart
@@ -37,16 +37,16 @@ export class StipDashboard1Component {
   public flotOptions:any =
   {
     series: {splines: {show: true, tension: 0.4, lineWidth: 1, fill: 0.4},},
-    grid: {tickColor: "#d5d5d5", borderWidth: 1, color: '#d5d5d5'},
-    colors: ["#1ab394", "#1C84C6"],
+    grid: {tickColor: '#d5d5d5', borderWidth: 1, color: '#d5d5d5'},
+    colors: ['#1ab394', '#1C84C6'],
   };
 
   // Peity chart
 
-  public peityType1:string = "bar";
-  public peityOptions1:any = { fill: ["#1ab394", "#d7d7d7"], width:100};
+  public peityType1:string = 'bar';
+  public peityOptions1:any = { fill: ['#1ab394', '#d7d7d7'], width:100};
 
-  public peityType2:string = "line";
+  public peityType2:string = 'line';
   public peityOptions2:any = { fill: '#1ab394',stroke:'#169c81', width: 64 };
 
   // Sparkline chart
