@@ -10,14 +10,27 @@ export const STIP_LAYOUT_ROUTES: Routes = [
         path: 'dashboards', component: StipBasicLayoutComponent,
         children: [
             {path: 'dashboard1', component: StipDashboard1Component},
-        ]
+        ],
+        data: {
+            authorities: [],
+            pageTitle: 'home.title'
+        }
     },
 
-    {path: '', redirectTo: 'main', pathMatch: 'full'},
+    {path: '', redirectTo: 'main', pathMatch: 'full',
+        data: {
+            authorities: [],
+            pageTitle: 'home.title'
+        }
+    },
     {
         path: 'main', component: StipBasicLayoutComponent,
         children: [
             {path: '', component: StipStarterViewComponent}
-        ]
+        ],
+        data: {
+            authorities: [],
+            pageTitle: 'home.title'
+        }
     }
 ];

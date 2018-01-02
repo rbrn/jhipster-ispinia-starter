@@ -1,5 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
@@ -10,14 +10,16 @@ import {BsDropdownModule} from 'ngx-bootstrap';
 import {FlotModule} from './appviews/flotChart';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule, BsDropdownModule.forRoot(), FlotModule,
-    RouterModule.forRoot(STIP_LAYOUT_ROUTES)
-  ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
-  bootstrap: []
+    declarations: [],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule, BsDropdownModule.forRoot(), FlotModule,
+        RouterModule.forRoot(STIP_LAYOUT_ROUTES)
+    ],
+    providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+    bootstrap: [],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class StipAppModule { }
+export class StipAppModule {
+}
