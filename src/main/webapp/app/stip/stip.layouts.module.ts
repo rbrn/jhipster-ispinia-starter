@@ -12,27 +12,27 @@ import {StipNavigationComponent} from './layouts/navigation/stip.navigation.comp
 import {StipTopNavbarComponent} from './layouts/navigation/stip.topnavbar.component';
 import {StipTopnavigationnavbarComponent} from './layouts/navigation/stip.topNavigationNavbar.component';
 import {StipBasicLayoutComponent} from './layouts/stip.basicLayout.component';
+import {StipAppViewsModule} from './appviews/stip.appviews.module';
 
 @NgModule({
   declarations: [
       StipTopNavbarComponent,
       StipNavigationComponent,
       StipFooterComponent,
-      StipTopnavigationnavbarComponent, StipStarterViewComponent,
-      StipDashboard1Component, FlotChartDirective,
+      StipTopnavigationnavbarComponent,
       StipBasicLayoutComponent
   ],
   imports: [
     BrowserModule,
     RouterModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+      StipAppViewsModule
   ],
   exports: [
       StipTopNavbarComponent,
       StipNavigationComponent,
       StipFooterComponent,
-      StipTopnavigationnavbarComponent, StipStarterViewComponent,
-      StipDashboard1Component, FlotChartDirective, StipBasicLayoutComponent
+      StipTopnavigationnavbarComponent
   ],
 })
 
